@@ -1,0 +1,55 @@
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: cadetblue;
+    /*max-height: 70px;*/
+    margin-top: -8px;
+    
+}
+
+.logo {
+    padding: 0px 40px;  
+}
+  
+.nav-item {
+    display: block;
+    text-align: center;
+    padding: 0px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav {
+    padding: 0px;
+}
+
+.navbar-collapse {
+    padding-bottom: 0px;
+}
+
+.btnav{
+    border-width: 0px;
+    min-height: 70px;
+    min-width: 195px;
+    background-color: cadetblue;
+    color: white;
+    margin-bottom: -8px;
+}
+
+.nav-item:hover{
+    background-color: #287480 ;
+}
+
+#flotante{
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 100;
+}
+
+#espacio{
+    min-height: 70px;
+}
