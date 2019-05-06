@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Temas>
+  <tema>
+    <nombre>Clima</nombre>
+    <imagen>Resources/themes/clima.jpg</imagen>
+  </tema>
+  <tema>
+    <nombre>Politica</nombre>
+    <imagen>Resources/themes/politica.jpg</imagen>
+  </tema>
+  <tema>
+    <nombre>Salud</nombre>
+    <imagen>Resources/themes/salud.jpg</imagen>
+  </tema>
+  <tema>
+    <nombre>Entretenimiento</nombre>
+    <imagen>Resources/themes/entretenimiento.jpg</imagen>
+  </tema>
+  <tema>
+    <nombre>Chismes</nombre>
+    <imagen>Resources/themes/chismes.jpg</imagen>
+  </tema>
+  <tema>
+    <nombre>Anime</nombre>
+    <imagen>Resources/themes/anime.jpg</imagen>
+  </tema>
+</Temas>

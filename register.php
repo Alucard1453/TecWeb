@@ -10,6 +10,8 @@ $edad=$_GET['Edad'];
 $genero=$_GET['Genero'];
 $ecivil=$_GET['Ecivil'];
 
+session_start();
+
 //Creamos la clase usuario
 class Usuario{
     private $nombre;
@@ -64,6 +66,23 @@ if(!$band){
         echo $sql . "<br>" . $e->getMessage();
     }
     $mdb = null;
+}
+
+if(!$band){
+    try {
+        $mdb = new PDO("mysql:host=$servername;dbname=$dbname", $usuario, $contrasena);
+        // set the PDO error mode to exception
+        $mdb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $sql = $mdb->prepare("SELECT idUsuario FROM usuario WHERE nUsuario='".$_SESSION['usuario']."' ");
+        $sql->execute();
+        // use exec() because no results are returned
+        $resultado = $sql->fetch(PDO::FETCH_OBJ);
+        $_SESSION['idUsuario'] = $resultado->idUsuario;
+        $mdb = null;
+    }
+    catch(PDOException $e){
+        echo $sql . "<br>" . $e->getMessage();
+    }
 }
 
 echo $band;

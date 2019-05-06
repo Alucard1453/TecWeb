@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Articulos>
+  <articulo id="4" idautor="9" likes="6" dislikes="1" notinterested="2" valoracion="4">
+    <tema idTema="1">Internacional</tema>
+    <titulo>Corea del Norte lanza varios misiles de corto alcance, su segunda prueba con armas tácticas en menos de un mes</titulo>
+    <imagen>https://ichef.bbci.co.uk/news/660/cpsprodpb/DA33/production/_106495855_053464185-1.jpg</imagen>
+    <contenido>Corea del Norte lanzo varios misiles de "corto alcance" en la manana de este sabado (hora local), segun reportes militares de Corea del Sur.  Los proyectiles volaron entre 70 y 200km en direccion este hacia el Mar de Japon y fueron disparados entre las 09:06 y las 09:27 hora local (00:06 y 00:27 GMT), informo la Jefatura del Estado Mayor Conjunto surcoreana.  Fueron lanzados desde los alrededores de la ciudad de Wosan, en la peninsula norcoreana de Hodo, la misma region desde donde fueron lanzados misiles de largo alcance en el pasado.</contenido>
+    <autor>Juan</autor>
+  </articulo>
+  <articulo id="7" idautor="9" likes="1" dislikes="1" notinterested="1" valoracion="-1">
+    <tema idTema="1">Internacional</tema>
+    <titulo>6 de mayo. Dia Internacional Sin Dietas, ¿que vas a comer hoy?</titulo>
+    <imagen>https://img.europapress.es/fotoweb/fotonoticia_20190506012933_640.jpg</imagen>
+    <contenido>Los principales objetivos de este Dia Internacional Sin Dietas son algunos como: poner en duda la idea de una forma corporal correcta, crear conciencia de la discriminacion por razones de peso, la necesidad de alimentarse de forma equilibrada sin obsesionarse con estandares ideales, declarar un dia sin dietas y obsesiones con el cuerpo y recordar a las victimas de los desordenes alimenticios y enfermedades mentales.</contenido>
+    <autor>Alucard</autor>
+  </articulo>
+</Articulos>

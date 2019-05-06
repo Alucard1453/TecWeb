@@ -1,0 +1,10 @@
+.tarjeta {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    padding: 0%;
+    height: 150px;
+    color: white;
+    text-shadow: 4px 4px 2px black;
+    padding: 0%;
+}

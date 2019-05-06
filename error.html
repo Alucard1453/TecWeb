@@ -46,33 +46,12 @@
         
         <div class="row" id="espacio"></div>
 
-        <div class=" row">
-            <div class="col-sm-3">
-                <br>
-                <button type="button" id="descargaXML" onclick="downloadXML()" class="btn btn-primary"><i class="fas fa-download"></i> XML</button>
+        <div class=" container" id="contenedor">
+            <div class="alert alert-danger" role="alert">
+                <b>Se produjo un error...</b><br>
+                El tema ingresado no es valido.
             </div>
-            
-            <div class="col-sm-6" id="contenedor">
-                <div class="form-group">
-                    <label for="selecTemaPagina">Visualiza las publicaciones por tema</label>
-                    <select class="form-control" id="selecTemaPagina" onchange="getArticulos(value)">
-                        <option value="0">Articulos de mi interes</option>
-                    </select>
-                </div>
-                <div id="articulos">
-                    ...
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-            </div>
-
         </div>
-
-        <!--Cargamos el Contenido
-        <script>
-            loadJSON();
-        </script>-->
         
         <!-- Modal -->
         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -84,7 +63,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body" id="modalContenido">
                         <form action="alta.php" method="POST" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label for="titulo">Titulo</label>
@@ -125,7 +104,8 @@
                 </div>
             </div>
         </div>
-        <br>
+
+        <div class="row" id="espacio"></div>
     </div>
     <script>
         validarsesion();

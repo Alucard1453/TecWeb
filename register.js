@@ -58,7 +58,7 @@ function validarregistro(usuario,pass,edad,genero,ecivil){
             console.log(respuesta);*/
             if(!respuesta){
                 localStorage.setItem("Logueado","1");
-                location.href ="/php/Proyecto/index.html";
+                location.href ="/php/Proyecto/interes.html";
             }
             else{
                 var div = document.getElementById("invaliduser");
